@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font: 100%/1.5 sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+.main-container {
+  width: 100%;
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-form {
+  width: 100%;
+  max-width: 400px;
+  height: fit-content;
+  margin: 0 auto;
+  padding: 30px 20px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+}
+
+.login-form h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.login-form-label {
+  display: block;
+  margin-bottom: 5px;
+}
+.login-form-input-text {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+}
+.login-form-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.login-form-button:hover {
+  background-color: #3e8e41;
+}
+
+.search-form {
+  width: fit-content;
+  height: fit-content;
+  height: fit-content;
+  margin: 0 auto;
+
+  display: flex;
+}
+.search-form-input-text {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 12px 0 0 12px;
+}
+.search-form-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 0 12px 12px 0;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.search-form-button:hover {
+  background-color: #6d6d6d;
+}
+
+.product-card {
+  width: 100%;
+  max-width: 400px;
+  height: fit-content;
+  margin: 0 auto;
+  padding: 30px 20px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  margin-bottom: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product-card h2 {
+  margin-bottom: 15px;
+}
+.product-card img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  margin-bottom: 15px;
+}
